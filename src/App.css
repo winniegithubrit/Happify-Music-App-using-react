@@ -1,51 +1,30 @@
-.App {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+*{
+  background-color: #524d4d;
+}
+h1{
+  
+  font-size: 50px;
+  margin-top: -10px;
+}
+img{
+  max-width: 500px;
+  max-height: 300px;
+  position: absolute;
+  top: -290px;
+  margin-left: 30px;
+
 }
 
-.Music {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  margin-top: 20px;
+.music-info-and-image-container{
+  margin-top: 10px;
+  margin-left: 500px;
+  position: absolute;
 }
-
-.music-list {
-  flex: 1;
-  margin-left: 20px;
+.search{
+  
+  font-size: 100px;
+  margin-top:-120px;
 }
-
-.music-info {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-right: 20px;
-}
-
-.music-info h2 {
-  font-size: 24px;
-  margin-top: 0;
-}
-
-.music-info h3 {
-  font-size: 18px;
-  margin-top: 0;
-}
-
-.music-info p {
-  margin-top: 0;
-}
-
-.music-info img {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-  margin-bottom: 20px;
-}
-
-.DeleteSongButton,
-.UpdateSongButton {
-  margin-top: 20px;
+.add-song{
+  margin-top: 99px;
 }

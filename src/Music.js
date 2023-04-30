@@ -48,9 +48,9 @@ function Music({songs}) {
   };
 
   return (
-    <div>
-    <div className='song-info-container'>
-      <ul className='song-list'>
+    <div className='music-details'>
+    <div className='song-list'>
+      <ul>
         {songs.map((song) => (
           <li key={song.id} onClick={() => handleSongSelect(song)}>
             {song.title}
@@ -58,9 +58,9 @@ function Music({songs}) {
         ))}
       </ul>
   {selectedSong && (
-        <div>
+        <div className='music-info-and-image-container'>
           <img src={selectedSong.image} alt={selectedSong.title} />
-          <div className='song-info'>
+          <div className='music-info'>
             <h2>ARTIST: {selectedSong.artist}</h2>
             <h3>TITLE:  {selectedSong.title}</h3>
             <p>DESCRIPTION: {selectedSong.description}</p>

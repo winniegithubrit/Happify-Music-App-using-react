@@ -1,4 +1,5 @@
 import React,{useState} from "react";
+import './App.css';
 function AddSong(props) {
   const [formState, setFormState] = useState({
     artist: '',
@@ -35,7 +36,7 @@ function AddSong(props) {
   };
 
   return (
-    <form onSubmit={handleFormSubmit}>
+    <form onSubmit={handleFormSubmit} className="add-song">
       <h2>Add Song</h2>
       <label>
         Artist:
