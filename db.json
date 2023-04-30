@@ -6,41 +6,15 @@
       "artist": "The Weeknd & Ariana Grande",
       "description": "The Weeknd and Ariana Grande team up for the remix its a nostalgic and upbeat 80s pop-inspired track.",
       "rating": 9,
-      "image": "https://hypeddit-gates-prod.s3.amazonaws.com/y6fjmh_coverartmanual"     
+      "image": "https://hypeddit-gates-prod.s3.amazonaws.com/y6fjmh_coverartmanual"
     },
     {
       "id": 2,
-      "artist": "Billie Eilish",
-      "title": "Lost Cause",
+      "artist": "Billie  Eilish",
+      "title": "Lost Cause ",
       "description": "Billie Eilish's latest single 'Lost Cause' is a laid-back, catchy pop tune .",
       "rating": 3,
-      "image": "https://i.ytimg.com/vi/vuhYSH36aSM/maxresdefault.jpg"     
-    },
-    {
-      "id": 3,
-      "artist": "BTS",
-      "title": "Butter",
-      "description": "K-pop sensations BTS return with, a slick dance-pop tune .",
-      "rating": 7,
-      "image": "https://static.independent.co.uk/2021/05/21/11/APTOPIX_South_Korea_BTS_Butter_20997.jpg"     
-    },
-    {
-      "id": 4,
-      "artist": "Adele",
-      "title": "Rolling in the Deep",
-      "description": "A soul and blues-inspired pop song about a failed relationship",
-      "rating": 9,
-      "image": "https://www.konusarakogren.com/blog/wp-content/uploads/2018/05/Rolling-in-the-deep.jpg"
-     
-    },
-    {
-      "id": 5,
-      "title": "Circles",
-      "artist": "Post ",
-      "description": "An alternative pop and rock song about a toxic relationship",
-      "rating": 5,
-      "image": "https://hollywoodlife.com/wp-content/uploads/2019/08/post-malone-circles-vertical.jpg"
-     
+      "image": "https://i.ytimg.com/vi/vuhYSH36aSM/maxresdefault.jpg"
     },
     {
       "id": 6,
@@ -49,7 +23,6 @@
       "description": "A pop and R&B song about self-love and empowerment",
       "rating": 6,
       "image": "https://upload.wikimedia.org/wikipedia/en/1/1c/Lizzo_-_Good_as_Hell.png"
-      
     },
     {
       "title": "Smoking out of the window",
@@ -65,7 +38,7 @@
       "title": "Clash (feat. Stormzy)",
       "description": "A rap song about the ups and downs of success",
       "rating": 4,
-      "image": "https://i1.sndcdn.com/artworks-y27vAUa9ILJzF5X4-dqK4RA-t500x500.jpg"     
+      "image": "https://i1.sndcdn.com/artworks-y27vAUa9ILJzF5X4-dqK4RA-t500x500.jpg"
     },
     {
       "title": "Confetti (feat. Saweetie)",
@@ -82,7 +55,6 @@
       "description": "A pop and afrobeat song about having fun and living in the moment",
       "rating": 5,
       "image": "https://trendybeatz.com/images/Blaq-Diamond-Summeryomuthi-Artwork.jpg"
-     
     },
     {
       "id": 11,
@@ -91,15 +63,22 @@
       "description": "SMA is a song by South African rapper Nasty C featuring Rowlene. It was released in 2019 as part of Nasty C's album titled 'Strings and Bling'.",
       "rating": 5,
       "image": "https://i0.wp.com/xclusiveloaded.com/wp-content/uploads/2019/06/Nasty-C-%E2%80%93-Send-Me-Away-SMA-ft.-Rowlene.jpg?fit=900%2C900&ssl=1"
-      
     },
-     {
+    {
       "id": 3,
       "artist": "Olivia Rodrigo",
       "title": "good 4 u",
       "description": "Olivia Rodrigo's latest single 'good 4 u' is a high-energy pop punk anthem.",
       "rating": 8,
-      "image": "https://i.ytimg.com/vi/gNi_6U5Pm_o/maxresdefault.jpg"     
+      "image": "https://i.ytimg.com/vi/gNi_6U5Pm_o/maxresdefault.jpg"
+    },
+    {
+      "id": 5,
+      "artist": "Doja Cat",
+      "title": "Kiss Me More",
+      "description": "Doja Cat's latest single 'Kiss Me More' is a funky, upbeat track featuring SZA.",
+      "rating": 9,
+      "image": "https://i.ytimg.com/vi/3tmd-ClpJxA/maxresdefault.jpg"
     }
   ]
 }

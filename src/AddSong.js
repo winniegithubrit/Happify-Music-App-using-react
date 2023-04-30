@@ -55,7 +55,7 @@ function AddSong(props) {
       <br />
       <label>
         Rating:
-        <input type="text" name="rating" value={formState.rating} onChange={handleFormChange} />
+        <input type="number" name="rating" value={formState.rating} onChange={handleFormChange} />
       </label>
       <br />
       <label>
