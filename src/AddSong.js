@@ -1,6 +1,7 @@
 import React,{useState} from "react";
 import './App.css';
 function AddSong(props) {
+  //state fot the form data
   const [formState, setFormState] = useState({
     artist: '',
     title: '',
@@ -8,14 +9,14 @@ function AddSong(props) {
     rating: '',
     image: ''
   });
-
+// Function to update the form state when input values changes
   const handleFormChange = (event) => {
     setFormState({
       ...formState,
       [event.target.name]: event.target.value
     });
   };
-
+//function to handle submission of the form
   const handleFormSubmit = (event) => {
     event.preventDefault();
     const newSong = {
@@ -25,7 +26,9 @@ function AddSong(props) {
       rating: formState.rating,
       image: formState.image
     };
+     // Calling the function passed in as a prop to add the new song
     props.handleSongAdd(newSong);
+    // Resetting the form state
     setFormState({
       artist: '',
       title: '',
@@ -36,6 +39,7 @@ function AddSong(props) {
   };
 
   return (
+    // Rendering the form
     <form onSubmit={handleFormSubmit} className="add-song">
       <h2>Add Song</h2>
       <label>

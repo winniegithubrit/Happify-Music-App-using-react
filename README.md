@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Phase1-project
+# HAPPIFY MUSIC APP
+Welcome to happify music app a ,simple web application that allows users to search songs and listen to their favourite songs
+# THE APP FEATURES:
+1. One can search songs by the title
+2. One is able to play the song on the app just by clicking on the song image
+3. One is able to delete songs from the playlist
+4. One is able to add songs of their choice to the playlist
+5. one is able to update a song to his liking  one can update all the features of the song 
+according to their liking
+Languages used:
+1. JSX
+2. CSS
+3. REACT JS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+first of all i created a repository in my GitHub Account and then named it phase 1 project i then cloned it and then added the index.html file,script.js file,style.css file ,README.MD file and also the db.json file
+# ABOUT USING THE APP
+1. Searching songs
+when you as the user wants to search a song youll go to the search bar type the name of the song and it will show it self on the playlist
+2. Playing the song
+when the user wants to play the song first of all he will have to select the song he wants on the playlist 
+then when the song image appears he will have to click on the song image and the song will play 
+3. Deleting songs
+There is a delete button whenever the user is bored with a certain song he can simply just select the song on the playlist and then click on the delete button and the song will permanently be deleted
+4. Adding Songs
+When the user wants to add a song he will have to fill the song details on the add song form and when he clicks on the add song button the song will automatically be added to the music playlist
 
-## Available Scripts
+5. Updating the songs
+The user first has to click the song title then when the image appears the update button is right next to the like button ,
+when the user clicks on the update button he gets a prompt to enter the title,artist,description,rating,image URL,audio URL and this will make an update to the song and also to the db.json file
+# CONTRIBUTOR
+NAME : WINNIE AYITSO JOMO
+GITHUB ACC: winniegithubrit@github.com
+Thank You
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+  
+  
+  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  

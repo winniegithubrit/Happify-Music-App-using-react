@@ -3,14 +3,15 @@ import React, { useState, useEffect } from 'react';
 import DeleteSongButton from './DeleteSongButton';
 import UpdateSongButton from './UpdateSongButton';
 function Music({songs}) {
+   // Defined state variables for the selected song and all song data
   const [data, setData] = useState([]);
   const [selectedSong, setSelectedSong] = useState(null);
-  
  
+ //when the user selects the song from the list the selected song state gets updated
   const handleSongSelect = (song) => {
     setSelectedSong(song);
   };
-
+// When a user deletes a song, send a DELETE request to the API and update the data
   const handleSongDelete = () => {
     if (selectedSong) {
       fetch(`http://localhost:3000/songs/${selectedSong.id}`, {
@@ -19,12 +20,13 @@ function Music({songs}) {
       .then(() => {
         setData(data.filter(song => song.id !== selectedSong.id));
         setSelectedSong(null);
+        // Reloading the page to show the changes
         window.location.reload()
       })
       
     }
   };
-
+// When a user updates a song,  a PATCH request is sent  to the API and updates the data
   const handleSongUpdate = (updatedSong) => {
     fetch(`http://localhost:3000/songs/${selectedSong.id}`, {
       method: "PATCH",
@@ -66,6 +68,8 @@ function Music({songs}) {
             <p>DESCRIPTION: {selectedSong.description}</p>
             <p>Rating: {selectedSong.rating}</p>
           </div>
+                      {/* Render the DeleteSongButton component and pass the handleSongDelete function as a prop */}
+
           <DeleteSongButton handleSongDelete={handleSongDelete} />
      
           <UpdateSongButton selectedSong={selectedSong} handleSongUpdate={handleSongUpdate} />
